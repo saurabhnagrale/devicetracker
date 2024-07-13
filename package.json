@@ -1,0 +1,23 @@
+{
+  "name": "divicetracker",
+  "version": "1.0.0",
+  "description": "a device tracker app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install",
+    "start": "node app.js",
+    "startdev": "nodemon app.js"
+  },
+  "author": "saurabh nagrale",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
